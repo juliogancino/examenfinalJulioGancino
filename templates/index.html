@@ -1,0 +1,33 @@
+{% extends 'layout.html'%}
+{% block body %}
+    <div class="container text-center">
+      <image src="{{url_for('static',filename='images/eig-business-school-logo.png')}}"/>
+    </div>
+    <div class="container ">
+      <h1 class="text-center">EXAMEN FINAL DE JULIO GANCINO</h1>
+      <div class="card col-4 mx-auto">
+        <div class="card-header">
+          Ingreso
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Ingresa la marca y la cantidad de vehículos a visualizar</h5>
+          <p class="card-text">
+            <form action="/carga_vehiculo" method="post">
+              <div class="mb-3">
+                <label for="marca" class="form-label">Marca</label>
+                <input type="text" class="form-control" id="marca" name="marca" aria-describedby="emailHelp" required>
+                <div id="emailHelp" class="form-text">Puede colocar el nombre de la marca con espacios si es necesario</div>
+              </div>
+              <div class="mb-3">
+                <label for="numero" class="form-label">Número de vehículos a visualizar</label>
+                <input type="number" class="form-control" id="numero"  name="numero" value="6" required>
+              </div>
+              <button type="submit" class="btn btn-primary">Cargar</button>
+            </form>
+
+          </p>
+        </div>
+      </div>
+    </div>
+
+{% endblock %}
