@@ -10,8 +10,6 @@ El sistema tiene 2 archivos  importantes
 1. api.py
 2. patiotuerca.py
 
-Toda la interfáz gráfica fue desarrollada **responsive**, esto quiere decri que se adapta automáticamente a cualquier 
-dispositivo, para ello usamos el framework Bootstrap.
 
 ***
 ## ARCHIVO api.py
@@ -173,8 +171,9 @@ def read_auto()-> dict:
 ~~~
 Al igual que la función anterior su funcionamiento es sencillo, solo leemos todos los datos de la base de datos mongoDB 
 y retornammos el resultado, que luego será iterado en pagina web. 
-
-
+***
+_Para finalizar quiero indicar que hay funciones que no se utilizan, pero es porque hice varias pruebas antes usar estas 
+últimas_
 ***
 ## Problemas presentados
 
