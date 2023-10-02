@@ -101,8 +101,24 @@ Donde consumimos  la función **read_auto()** para leer los datos de la base mon
 diccionario completo, no realizamos búsquedas especializadas, ya sea por nombre o por modelo, es simplemente descargar
 toda la base de datos y organizarla en la página web.
 
-Para finalizar este _README_ voy presentar las características del software usado para realizar este exámen.
+***
+## Problemas presentados
 
+El principal problema que tuve es el tiempo, me ubiera gustado hacer mejores cosas, pero lastimosamente calculé mal
+mis deberes profesionales, familiares y de estudiante de maestría, a parte de ello, cualquier problema que surgió lo 
+resolví leyendo los manuales directamente en las páginas oficiales, especialemente de Flask y de Jinja2, si bien puede 
+ver que hay código que no se utiliza es porque repeti varias veces la clase que nos impartió hasta entenderla muy bien
+y luego de eso, solo fue leer manuales. Adicionalmente debo agregar que no he trabajado con python en ningún proyecto
+pero ahora entiendo porque es tan popular.
+
+También quiero comentarle que yo tengo mucho años de experiencia en el desarrollo por ello no se me complicó mucho 
+el examén y espero obtener una buena nota. 
+
+Para finalizar este _README_ voy presentar las características del software usado para realizar este exámen.
+***
+## Mapa de Navegación [Realizado en excalidraw.com]
+
+![Pagina index.html](/static/images/Mapa_de_navegacion.png)
 ***
 ## Specs
 * Python 3.11.4
